@@ -1,0 +1,68 @@
+body {/*This CSS file is of my own production.*/
+    font-family: Arial, sans-serif;
+    background-color: #FFA500;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* This class let me set the tempo for the default text of the main body of text. */
+    height: 100vh;
+}
+
+.container {
+    display: flex;/*This flex display allowed me to account for different browser resolutions.*/
+}
+
+h1 {
+    text-align: center;
+    background-color: #FF5733;
+    color: #fff;
+    padding: 20px;
+    margin: 0; /* This class set the tempo of the font for the title. */
+}
+
+.left-column {
+    width: 25%;
+    background-color: #2E2E2E;
+    padding: 20px;
+    color: #fff;
+}
+
+.right-column {
+    width: 75%;
+    padding: 20px; /*Lines 24 to 34 represent the design theme of both the right and left column, touching on the colour and the size.*/
+}
+
+
+.nav-menu a img {
+    width: 24px;
+    margin-right: 10px;/*I was having trouble with my nav menu icons on this page. This class helped me keep their size in check.*/
+}
+
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}/*Lines 42 to 49 set to designate the hyperlinks in the contacts page being blue and underlined, when the user mouse hovers over it.*/
+
+p {
+    margin: 0; /*This removes the default margin around paragraphs for the sake of my design.*/
+}
+.logo{
+text-align: center;
+    padding: 20px;
+    position: fixed;
+    top: 0; /* Position at the top */
+    left: 50%; /* Center horizontally */
+    transform: translateX(-50%); /* Center horizontally */
+    background-color: #333; /* Optional background color for the logo container */
+    width: 100%; /* Full width */
+}
+
+.logo-img {
+    max-width: 200px; 
+    max-height: 200px; /*This class is used to modify the size of the main logo */
+}/*This CSS file is of my own production.*/

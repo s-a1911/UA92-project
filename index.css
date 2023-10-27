@@ -1,0 +1,105 @@
+body { /*This specifies the font family for the index page's font.*/
+    font-family: Arial, sans-serif;/*This CSS file is of my own production.*/
+
+}
+.container {/*This tells the dual column layout to account for all resolutions when it is being deployed.*/
+    display: flex;
+}
+.logo img {/*This sets the structure for the logo.*/
+    max-width: 100%;
+}
+.nav-menu ul {/*This class sets the style for an unordered list in the nav menu.*/
+    list-style-type: none;
+    padding: 0;
+}
+.nav-menu li {/*This sets the margin between the items on the nav menu.*/
+    margin-bottom: 10px;
+}
+.nav-menu a {/*This sets the style for the navigation links.*/
+    text-decoration: none;
+    color: #333;
+    display: flex;
+    align-items: center;
+}
+.nav-menu a img {/*This sets the size of the nav menu images.*/
+    width: 24px;
+    margin-right: 10px;
+}
+h1 {
+    font-family: 'Great Vibes', cursive; /*This sets the style for any text that is granted the h1 tag.*/
+    font-size: 36px;
+}
+.slogan {
+    font-family: 'Great Vibes', cursive;
+    font-size: 18px;/*Lines 27 to 33 designate the font of the title and slogan.*/
+}
+.logo img {
+    max-width: 450px;
+    max-height: 200px;/*This designates the size of the logo in the page.*/
+}
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #FF5733;
+    color: #fff;/*This sets the style for the header section, covering the positioning of content, colour themes and padding.*/
+}
+.left-column {
+    width: 25%;
+    background-color: #333;
+    padding: 20px;
+    color: #fff; /*This sets the style and size of the nav bar.*/
+}
+.nav-menu ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /*This sets the style for the list in the nav menu.*/
+}
+
+.nav-menu li {
+    margin-bottom: 0;
+    flex: 1; /*This sets the style for the items in the list.*/
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}/*This designates the styles for the navigation links in the menu.*/
+
+.right-column {
+    width: 75%;
+    padding: 20px;
+    background-image: url('background.jpg'); /*This sets the style for the right column's background, and gives the font a blue outline to assist with readability.*/
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: blue;
+}
+.recipe-of-the-week {
+    text-align: center;
+    background-color: #FFD700;/*This sets the style and size for the button that holds recipe of the week.*/
+    padding: 10px;
+    border-radius: 10px; 
+    margin-top: 20px; 
+}
+
+.recipe-of-the-week a {
+    color: #333;
+    font-weight: bold;
+    text-decoration: none;
+    -webkit-text-stroke-width: 0px;/*This sets the style for what should happen once the link is hovered over.*/
+}
+
+.recipe-of-the-week a:hover {
+    text-decoration: underline;/*Once the link is hovered, it will be underlined.*/
+}
+
+.right-column p, .right-column h2 {
+    color: orange;
+    font-weight: bold;
+    font-size: 24px; /*This sets the style for the font within all text in the right column apart from the button.*/
+}
+/*This CSS file is of my own production.*/

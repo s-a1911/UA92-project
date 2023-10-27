@@ -1,0 +1,124 @@
+body {/*This CSS file is of my own production.*/
+    background-color: #FF0000; /* Initial background color, later overridden */
+}
+
+.nav-menu a img {
+    width: 24px;
+    margin-right: 10px; /* Specifies size and margin for images inside nav-menu links */
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #FF5733;
+    color: #fff; /* Styling for header section */
+}
+
+.logo img {
+    max-width: 300px;
+    max-height: 300px;
+    display: block;
+    margin: 0 auto; /* Styling for logo image; centers it */
+}
+
+.logo-banner {
+    text-align: center;
+    background-color: #333;
+    padding: 20px; /* Styling for a banner that contains the logo */
+}
+
+.logo {
+    max-width: 300px;
+    max-height: 300px;
+    display: block;
+    margin: 0 auto; /* Styling for the logo section, centers it */
+}
+
+.container {
+    display: flex; /* Makes the container a flexbox container */
+}
+
+.left-column {
+    width: 25%;
+    background-color: #2E2E2E;
+    padding: 20px;
+    color: #fff; /* Styling for the left column of the container */
+}
+
+.right-column {
+    width: 75%;
+    padding: 20px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat; /* Styling for the right column of the container */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7; /* Background color and font setting for body, centering content */
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full height viewport */
+}
+
+#container {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 600px;
+    display: flex; /* Main container styling with a slight shadow and fixed width */
+}
+
+#items, #cart {
+    flex: 1;
+    padding: 20px; /* Basic styling for item and cart containers */
+}
+
+#cart {
+    background-color: #f1f1f1; /* Specific background color for cart container */
+}
+
+.item, .cart-item {
+    background-color: #fff; /* Styling for individual items; used for both regular and cart items */
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin: 5px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cart-item {
+    background-color: #f1f1f1; /* Specific background color for cart items */
+}
+
+button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer; /* Styling for buttons */
+}
+
+button:hover {
+    background-color: #0056b3; /* Hover effect for buttons */
+}
+
+h2 {
+    margin: 0; /* Removes margin from h2 elements */
+}
+
+p {
+    font-weight: bold;
+    margin: 0; /* Bold styling for paragraphs and removes margin */
+}
+
+.item img, .cart-item img {
+    max-width: 100px;
+    height: auto;
+    margin-right: 10px; /* Styling for images inside both item and cart-item classes */
+}
+/*This CSS file is of my own production.*/

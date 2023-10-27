@@ -1,0 +1,114 @@
+body {/*This CSS file is of my own production.*/
+    font-family: Arial, sans-serif; /* Sets the default font for the body */
+}
+
+.container {
+    display: flex; /* Makes the container a flexbox container */
+}
+
+.left-column {
+    width: 25%; 
+    background-color: lightblue; 
+    padding: 20px; /* Styles for the left column of the container */
+}
+
+.logo img {
+    max-width: 100%; /* Controls the size of the logo*/
+    max-height: 200px; 
+}
+
+.nav-menu ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex; 
+    flex-direction: column; 
+    gap: 10px; /* Styling for the unordered list in the navigation menu */
+}
+
+.nav-menu li {
+    margin-bottom: 0; 
+    flex: 1; /* Styling for list items in the navigation menu */
+}
+
+.nav-menu a {
+    text-decoration: none; 
+    color: black; 
+    display: flex; 
+    align-items: center; /* Styling for the links in the navigation menu */
+}
+
+.nav-menu a img {
+    width: 24px; 
+    margin-right: 10px; /* Styling for the images inside the navigation menu links */
+}
+
+.right-column {
+    width: 75%; 
+    padding: 20px; 
+    background-color: #E0F7FF; 
+    background-image: 'cookbook.jpg'; 
+    background-size: 100% 100%; 
+    opacity: 0.8; 
+    background-repeat: no-repeat; /* Styles for the right column of the container with a background image */
+}
+
+header {
+    text-align: center; 
+    padding: 20px; 
+    background-color: #FF5733; 
+    color: #fff; /* Styles the header section of the page */
+}
+
+h1 {
+    font-family: 'Great Vibes', cursive; 
+    font-size: 36px; /* Styling for main title */
+}
+
+.slogan {
+    font-family: 'Great Vibes', cursive; 
+    font-size: 18px; /* Styling for the slogan */
+}
+
+.recipe-of-the-week {
+    text-align: center; 
+    background-color: #FFD700; 
+    padding: 10px; 
+    border-radius: 10px; 
+    margin-top: 20px; /* Styles the "recipe of the week" section */
+}
+
+.recipe-of-the-week a {
+    color: #333;
+    font-weight: bold; 
+    text-decoration: none; /* Styles the link inside "recipe of the week" */
+}
+
+.recipe-of-the-week a:hover {
+    text-decoration: underline; /* Adds a hover effect to the link inside "recipe of the week" */
+}
+
+.recipe {
+    text-align: center; 
+    background-color: #FFD999; 
+    padding: 10px; 
+    border-radius: 10px; 
+    margin-top: 20px; /* Styles for the recipe section */
+}
+
+.recipe a {
+    color: #555; 
+    font-weight: bold; 
+    text-decoration: none; /* Styles the link inside recipes */
+}
+
+.recipe a:hover {
+    text-decoration: underline; /* Adds a hover effect to the link inside recipes */
+}
+
+.right-column p, .right-column h2 {
+    color: orange; 
+    font-weight: bold; 
+    font-size: 24px; /* Styles for paragraphs and subheadings inside the right column */
+}
+
+/*This CSS file is of my own production.*/

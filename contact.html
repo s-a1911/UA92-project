@@ -1,0 +1,56 @@
+<!DOCTYPE html><!--This HTML file is of my own production-->
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="contactstyles.css"><!--This is the link to the external CSS file responsible for designing the page.-->
+</head>
+
+<body>
+    <div class="logo">
+        <img src="The recipe exchange-logos.jpeg" alt="The Logo" class="logo-img">
+    </div> <!--Lines 9 to 11 display the logo in its own header at the top of the page, using the class 'logo-img'.-->
+    <div class="container">
+        <div class="left-column">
+            <nav class="nav-menu">
+                <ul>
+                    <li><a href="shop.html"><img src="basket.png" alt="Shop">Shop</a></li>
+                    <li><a href="recipes.html"><img src="book.jpg" alt="Recipes">Recipes</a></li>
+                    <li><a href="contact.html"><img src="contact.jpg" alt="Contact Us">Contact Us</a></li>
+                    <li><a href="index.html"><img src="house.jpg" alt="Home Page">Home</a></li>
+                </ul>
+            </nav><!--Lines 13 to 21 is the nav menu postioned in the left column of the page (as always) that is used to navigate the entire collection of HTML pages present in this project.-->
+        </div>
+        <div class="right-column"><!--The start of this class represents the start of content production.-->
+            <p>Are you dying to tell us something we could use? Or do you have a magnificent recipe at home you want us to have a go at cooking?</p>
+            <p>If it's a magnificent recipe, please send us a step by step guide on how to cook it for us to share!</p>
+            <p> <!--Lines 24 to 26 are introductory text passages to the content of the page.-->
+                <label for="message">Your message to us:</label>
+                <textarea id="message1" name="message"></textarea>
+                <label for="name">Your name:</label>
+                <textarea id="name" name="name"></textarea>
+                <label for="email">Your email:</label>
+                <textarea id="email" name="email"></textarea>
+            </p>
+            <input type="submit" value="Submit" onclick="displayAlert()"><!--Lines 27 to 34 present a traditional way of contacting the project managers by asking them to input their name, email address and message. The submit button below will then, in theory, send the message.-->
+            <p>Whatever your message, you can contact us by clicking the link below, also:</p>
+            <a href="mailto:samuelahmed2014@outlook.com">Over here!</a><!--This line advertises an alternate and easier method for communicating with the project managers by opening the users default mail software and predesignating a recipient.-->
+            <p>(Hey! You can even send us a video of you cooking if you're sending us a recipe. That would be great for our learners and it's a great opportunity to get your face out there! Just attach the special video, if you have one, onto the email and leave a note telling us what it is!)</p>
+            <br>
+            <p>Alternatively, feel free to come find us on our socials as displayed below:</p>
+            <ul>
+                <li><a href="https://www.facebook.com/gordonramsay/">Come along to our Facebook link!</a></li>
+                <li><a href="https://www.instagram.com/gordongram/">Or our Instagram link!</a></li>
+            </ul> <!--Lines 40 to 43 represent an unordred list that advertises the social media reach of the project, with line 39, a paragraph, introducing that list.-->
+        </div>
+    </div><!--Lines 23 to 46 represent both columns contained in a container. Everything on the page apart from the logo.-->
+
+    <script>
+        function displayAlert() {
+            alert("Your message has been sent! We'll try to get back to you as soon as we can!");
+        }
+    </script><!--Lines 47 to 51 represent a script where upon clicking submit, the website will acknowledge data being submitted. This is in preperation for the potentially upcoming back end patch to the whole website.-->
+
+</body>
+
+</html>
+<!--This HTML file is of my own production-->
